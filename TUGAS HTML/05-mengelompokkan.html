@@ -1,17 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>16 | Salman | MS Wellbeing</title>
     </head>
     <body>
-        <header>
-            <h1>Mengelompokkan</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Artikel Terbaru</a></li>
-                    <li><a href="#">Artikel Populer</a></li>
-                    <li><a href="#">Hubungi Kami</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <a href="#header">header</a> |
+            <a href="#profilku">profilku</a> |
+            <a href="#film-favoritku">film-favoritku</a> |
+            <a href="#get-in-touch">get-in-touch</a>
+        </nav>
+
+        <header id="header">
+            <h1>Website Pertamaku</h1>
+            <p>Ini adalah pertama kali saya membuat sebuah website menggunakan HTML</p>
+            <a href="https://www.google.com/" target="_blank">tekan ini untuk pergi ke google</a>
         </header>
+        <br><br>
+
+        <section id="profilku">
+            <h1>Profilku</h1>
+            <img src="6304c2af-ec5a-433e-a5bf-b043bab620ad.jpeg" width="200px" height="200px" alt="fotoku">
+            <ul>
+                <li>nama     : Salman</li>
+                <li>email    : salmansetiawan88@gmail.com</li>
+                <li>daerah   : balikpapan</li>
+                <li>hobi     :
+                    <ol>
+                        <li>tidur</li>
+                        <li>tidur</li>
+                        <li>dan tidur
+                    </ol>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+        
+        <section id="film-favoritku">
+            <h1>Film Favoritku</h1>
+            <table>
+                <tr>
+                    <th>no</th>
+                    <th>nama</th>
+                    <th>produsen</th>
+                </tr>
+                <tr>
+                    <td>1. </td>
+                    <td>Fullmetal Alchemist : Brotherhood</td>
+                    <td>Hero</td>
+                </tr>       
+                <tr>
+                    <td>2. </td>
+                    <td>Hunter x Hunter (TV 2011)</td>
+                    <td>Hero</td>
+                </tr>   
+                <tr>
+                    <td>3. </td>
+                    <td>Jujutsu Kaisen</td>
+                    <td>Hero</td>
+                </tr> 
+            </table>
+        </section>
+        <br><br>
+        
+        <section id="get-in-touch">
+            <h1>Get in Touch</h1>
+            <form>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </body>
 </html>
