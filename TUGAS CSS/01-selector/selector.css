@@ -1,15 +1,15 @@
-.daftar-siswa {
+#daftar-siswa {
     background-color: gainsboro;
 }
 
-p:hover {
-    background-color: #E5E7EB;
-}
-
-.prestasi {
+#daftar-siswa :first-child {
     background-color: #60A5FA;
 }
 
-.tidak-prestasi {
+#daftar-siswa :last-child {
     background-color: #F87171;
+}
+
+#daftar-siswa :hover {
+    background-color: #E5E7EB;
 }
