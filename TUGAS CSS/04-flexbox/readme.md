@@ -73,5 +73,5 @@ Hasil screenshot Flex Froggy pada Level 24
 ![screenshot](https://github.com/salman-setiawan/Skilvul/blob/master/TUGAS%20CSS/04-flexbox/folder%20screenshot/level%20(24).png)
 
 ## mission complete folks!
-its a have fun journey to deal with
+its a have fun journey to deal with 
 ![screenshot](https://github.com/salman-setiawan/Skilvul/blob/master/TUGAS%20CSS/04-flexbox/folder%20screenshot/level%20(complete).png)
