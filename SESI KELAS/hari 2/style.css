@@ -1,0 +1,60 @@
+.container {
+    border: 20px solid purple;
+    height: 500px;
+    display: flex;
+    
+    /* --- ORDERING AND ORIENTATION--- */
+    flex-direction: column;
+
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+
+    /* flex-flow: column wrap; */
+
+    /* --- ALIGNMENT--- */
+    /* justify-content: flex-start; */
+    justify-content: center;
+    /* justify-content: flex-end; */
+
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+
+    /* align-content: space-around; */
+
+}
+
+.item {
+    border: 2px solid black;
+    background-color: orange;
+    
+    width: 100px;
+    /* flex-basis: 200px; */
+
+    height: 50px;
+    
+    padding: 15px 0;
+
+    text-align: center;
+    font-size: 16pt;
+
+}
+
+.item-1 {
+    order: 2;
+}
+
+.item-2 {
+    align-self: flex-start;
+}
+
+.item-3 {
+    order: 1;
+    /* flex-grow: 2; */
+    /* flex-shrink: 4; */
+}
+
+.item-5 {
+    align-self: flex-end;
+}

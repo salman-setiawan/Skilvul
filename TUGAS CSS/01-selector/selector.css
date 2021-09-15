@@ -1,0 +1,15 @@
+.daftar-siswa {
+    background-color: gainsboro;
+}
+
+p:hover {
+    background-color: #E5E7EB;
+}
+
+.prestasi {
+    background-color: #60A5FA;
+}
+
+.tidak-prestasi {
+    background-color: #F87171;
+}
